@@ -72,4 +72,27 @@ Within the parentheses, you can create any number of rules, and there are separa
 
 You can also move any rule to another rule. To do this, drag an anchor **||** which appears from the left side of the rule if you hover the mouse there, and drop it on any rounded **+** anchors which appear between rules and/or parentheses (not on the **+** button that adds rules).
 
-**NOTE: Bug found if dropping a rule on certain location, it redirects browser to an error page**
+**BUG: if dropping a rule on certain location, it redirects browser to an error page**
+
+Clearing Filters
+----------------
+
+Under any section you can click the **Clear** button to remove any filter settings from that section.
+
+Applying the Filter
+-------------------
+
+When you finish building the filter, click **Apply Filter** in the lower right corner of the page. The number of variants in the lower left corner (the first number before the slash, while the second one is the total number of variants and is not changed) should now become smaller. These numbers also appear in the **FILTER** tab header, making it e.g. **FILTER 22/4,727,413**. If the number is small enough, you can switch to the **VARIANT** tab, or make the filter more strict to reduce the number.
+
+Saving and Importing Filters
+----------------------------
+
+You can save the filter (the whole set of rules) into a file or import it from a file.
+
+To save the filter, click the floppy disk icon in the lower right corner of the page, and enter the file name.
+
+**BUG in OpenCravat: Where is it saving the filter? Also, after you enter the name, it will appear in the samples list when saving the next time**
+
+**Need to research this behavior in OakVar**
+
+To import the filter from a file, click the "up error" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter.
