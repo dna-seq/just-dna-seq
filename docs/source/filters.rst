@@ -87,12 +87,15 @@ When you finish building the filter, click **Apply Filter** in the lower right c
 Saving and Importing Filters
 ----------------------------
 
-You can save the filter (the whole set of rules) into a file or import it from a file.
+You can save the filter (the whole set of rules) in OpenCravat/OakVar for further loading, as well as exporting to a file, or import it from a file.
 
-To save the filter, click the floppy disk icon in the lower right corner of the page, and enter the file name.
+To save the filter, click the floppy disk icon in the lower right corner of the page, and enter the name.
 
-**BUG in OpenCravat: Where is it saving the filter? Also, after you enter the name, it will appear in the samples list when saving the next time**
+**NOTE:** Filters are saved internally in OpenCravat/OakVar, i.e. on the server if using a remote installation. To have a filter saved into a local file, export it after saving.
 
-**Need to research this behavior in OakVar**
+The saved filter appears in the left part of the page in the **Saved Filters** list.
+To load a saved filter, just click its name.
+To export a saved filter into a file, click the icon with a down arrow next to its name.
+To delete a saved filter, click the X icon in its line.
 
-To import the filter from a file, click the "up error" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter.
+To import a filter from a file, click the "up error" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter. **NOTE:** the filter is not saved automatically, you need to save it with "Save filter" (floppy) icon if you want to save in on the server for further working.
