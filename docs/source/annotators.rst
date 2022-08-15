@@ -37,3 +37,5 @@ Annotators can be divided into 2 groups:
 • PharmGKB
 
 • dbSNP
+
+The most important annotators for us are **ClinVar** and **dbSNP**.
