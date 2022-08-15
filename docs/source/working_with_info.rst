@@ -1,5 +1,5 @@
-Working With Information
-===============
+Working With Annotation Information
+===================================
 
 After applying the necessary filters, click the **Variant** tab.
 
