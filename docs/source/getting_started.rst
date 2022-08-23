@@ -14,7 +14,7 @@ In OakVar:
 
 1. Open OakVar in your browser. You will see the index page:
 
-![Index page](index.png?raw=true "Index page")
+![Index page](/docs/source/index.png?raw=true "Index page")
 
 2. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
 
