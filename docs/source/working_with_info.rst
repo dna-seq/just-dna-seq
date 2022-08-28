@@ -1,5 +1,5 @@
-Working With Annotation Information
-===================================
+Working With Annotated Variants
+===============================
 
 After applying the necessary filters, select the **Variants** page.
 
