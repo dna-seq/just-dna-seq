@@ -1,26 +1,21 @@
-Filters
-=======
+Filtering Variants
+==================
 
-Filters in OpenCravat/OakVar allow to select those variants which are relevant. As the number of variants in a genome usually is very large, you need to filter them first. OpenCravat cannot load more than 100,000 variants at once.
+Filters in OakVar allow to select those variants which are relevant. As the number of variants in a genome usually is very large, you need to filter them first. OpenCravat cannot load more than 100,000 variants at once.
 
 Filter tab
 ----------
 
-Select the **Filter** tab in the Result Viewer. There are the following sections:
+Select the **Filter** tab in the Result Viewer. There are sections where you can filter the variants:
 
-•Samples
+• *Variant Properties*, with **Smart Filters** and **Query Builder** tabs 
 
-This is for oncological samples and is not used in Just-DNA-Seq.
+• *Genes*, where you can type in any particular gene names
 
-•Genes
+• *Samples*, which is used mainly for oncological purposes and is not used in Just-DNA-Seq.
 
-Here you can type in any particular gene names, one per line. Also you can load them from a file by clicking **Browse...**
-
-•Variant properties
-
-This section has 2 subtabs in its turn:
-
-••Smart Filters
+Using Smart Filters
+-------------------
 
 Here are various useful filters:
 
@@ -42,7 +37,8 @@ Here are various useful filters:
 
 **SIFT Prediction**
 
-••Query Builder
+Using Query Builder
+-------------------
 
 Here you can create a set of filter rules.
 
@@ -73,6 +69,11 @@ Within the parentheses, you can create any number of rules, and there are separa
 You can also move any rule to another rule. To do this, drag an anchor **||** which appears from the left side of the rule if you hover the mouse there, and drop it on any rounded **+** anchors which appear between rules and/or parentheses (not on the **+** button that adds rules).
 
 **BUG: if dropping a rule on certain location, it redirects browser to an error page**
+
+Filtering by Genes
+------------------
+
+Switch to **Genes** section and enter any particular gene names, one per line. Also you can load them from a file by clicking **Browse...**
 
 Clearing Filters
 ----------------
