@@ -1,15 +1,17 @@
 Working With Annotation Information
 ===================================
 
-After applying the necessary filters, click the **Variant** tab.
+After applying the necessary filters, select the **Variants** page.
 
-You will see a view with a table in the upper part and widgets below. You can move the border between them or switch to another view using the button in the upper right corner of the window:
+By default a combined view is displayed, with both table and widgets:
 
-View table - switch to table-only view
-View detail pane - switch to widgets-only view
-View table - switch to the default view (both)
+.. image:: variants-default.png
+  :alt: Variants default view
+  
+Using buttons in the upper right corner, you can toggle on/off the table view (window-like icon) and the widgets view (piechart-like icon). For our purposes first of all we need the table view:
 
-For our purposes we'll need the table first of all.
+.. image:: variants-table-view.png
+  :alt: Variants table view
 
 The table contains columns and column sets with general info about the filtered variants, as well as connected to certain annotators. Some logically grouped column sets (by a particular annotator) can be extended or collapsed by clicking the +/- sign in the upper right corner of the column set (the topmost row). If you filtered by particular annotators, especially using "has data" condition, for other annotators it may show nothing for that particular variants, and they can be collapsed for convenience.
 
