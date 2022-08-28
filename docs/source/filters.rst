@@ -1,7 +1,7 @@
 Filtering Variants
 ==================
 
-Filters in OakVar allow to select those variants which are relevant. As the number of variants in a genome usually is very large, you need to filter them first. OpenCravat cannot load more than 100,000 variants at once.
+Filters in OakVar allow to select those variants which are relevant. As the number of variants in a genome usually is very large, you need to filter them first. OakVar cannot load more than 100,000 variants at once.
 
 Filter tab
 ----------
@@ -92,7 +92,7 @@ Under any section you can click the **Clear** button to remove any filter settin
 Saving and Importing Filters
 ----------------------------
 
-You can save the filter (the whole set of rules) in OpenCravat/OakVar for further loading, as well as exporting to a file, or import it from a file.
+You can save the filter (the whole set of rules) in OakVar for further loading, as well as exporting to a file, or import it from a file.
 
 To save the filter, click the middle button ("inward arrow") in the lower right corner of the page, and enter the filter name.
 
