@@ -6,13 +6,16 @@ Filters in OakVar allow to select those variants which are relevant. As the numb
 Filter tab
 ----------
 
-Select the **Filter** tab in the Result Viewer. There are sections where you can filter the variants:
+Select the **Filter** page in the Result Viewer. There are sections where you can filter the variants:
 
 • *Variant Properties*, with **Smart Filters** and **Query Builder** tabs 
 
 • *Genes*, where you can type in any particular gene names
 
 • *Samples*, which is used mainly for oncological purposes and is not used in Just-DNA-Seq.
+
+.. image:: filters.png
+  :alt: Filter page
 
 Using Smart Filters
 -------------------
@@ -46,6 +49,9 @@ By default, an opening (left) parenthesis appears with buttons **+** and **(** i
 
 Click **+** to add a rule. A line of boxes will appear:
 
+.. image:: query-builder-add.png
+  :alt: Adding a rule in Query Builder
+
 The first drop-down box is the source to which the rule will apply. For example: Variant Annotation, ClinVar, PharmGKB etc.
 The second drop-down box allow to select an item in the source to apply the rule. E.g. UID, Chrom, Position, Gene etc.
 The following switch "not", greyed out (inactive) by default, allows to select if the following condition should apply or should not apply. For the latter, click the word "not", and it will become black (active). To remove "not" from the condition, just click it again, and it will be greyed out.
@@ -75,28 +81,37 @@ Filtering by Genes
 
 Switch to **Genes** section and enter any particular gene names, one per line. Also you can load them from a file by clicking **Browse...**
 
+.. image:: filter-genes.png
+  :alt: Filtering by genes
+
 Clearing Filters
 ----------------
 
 Under any section you can click the **Clear** button to remove any filter settings from that section.
-
-Applying the Filter
--------------------
-
-When you finish building the filter, click **Apply Filter** in the lower right corner of the page. The number of variants in the lower left corner (the first number before the slash, while the second one is the total number of variants and is not changed) should now become smaller. These numbers also appear in the **FILTER** tab header, making it e.g. **FILTER 22/4,727,413**. If the number is small enough, you can switch to the **VARIANT** tab, or make the filter more strict to reduce the number.
 
 Saving and Importing Filters
 ----------------------------
 
 You can save the filter (the whole set of rules) in OpenCravat/OakVar for further loading, as well as exporting to a file, or import it from a file.
 
-To save the filter, click the floppy disk icon in the lower right corner of the page, and enter the name.
+To save the filter, click the middle button ("inward arrow") in the lower right corner of the page, and enter the filter name.
 
-**NOTE:** Filters are saved internally in OpenCravat/OakVar, i.e. on the server if using a remote installation. To have a filter saved into a local file, export it after saving.
+**NOTE:** Filters are saved internally in OakVar, i.e. on the server if using a remote installation. To have a filter saved into a local file, export it after saving.
 
-The saved filter appears in the left part of the page in the **Saved Filters** list.
+The saved filter appears in the left part of the page in the **Saved Filters** list:
+
+.. image:: filter-saved.png
+  :alt: Saved filters
+
 To load a saved filter, just click its name.
 To export a saved filter into a file, click the icon with a down arrow next to its name.
 To delete a saved filter, click the X icon in its line.
 
-To import a filter from a file, click the "up error" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter. **NOTE:** the filter is not saved automatically, you need to save it with "Save filter" (floppy) icon if you want to save in on the server for further working.
+To import a filter from a file, click the "up arrow" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter. **NOTE:** the filter is not saved automatically, you need to save it with "Save filter" (inward arrow) button if you want to save in on the server for further working.
+
+Loading Filtered Variants
+-------------------------
+
+When building a filter, you can click the refresh button next to the number of variants (e.g. **68/12,015,254 variants**) in the lower left corner of the page to check how many results the filter provides. If the number is small enough, when the filter is ready, click **Load** in the lower right corner of the page. After loading the filter, the number of variants in the lower left corner (the first number before the slash, while the second one is the total number of variants and is not changed) may be updated.
+
+When the filtered variants are loaded, you can proceed to the **Variant** tab to analyse them (see the next section).
