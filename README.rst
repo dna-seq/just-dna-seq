@@ -3,7 +3,7 @@ Just-DNA-Seq Documentation README
 
 This is Just-DNA-Seq documentation project on ReadTheDocs:
 
-https://just-dna-seq.readthedocs.io
+https://just-dna-seq.readthedocs.io/en/oakvar/
 
 Documentation files are located in /docs/source
 
