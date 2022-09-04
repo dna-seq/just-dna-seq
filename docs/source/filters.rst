@@ -22,23 +22,25 @@ Using Smart Filters
 
 Here are various useful filters:
 
-**Population AF «==***
+**Population AF «==*** allows to set the maximum allele frequency in population.
 
-**Sequence Ontology**
+**Sequence Ontology** allows to choose one or more sequence ontologies.
 
-**Chromosome**
+**Chromosome** allows to choose one or more chromosomes *or their specific versions.* E.g. chr1, chr10 and so on.
 
-**Coding**
+**Coding** allows to include only coding or noncoding variants.
 
 **ClinGen**
 
-**ClinVar**
+**ClinVar** allows to include only variants with data from ClinVar.
 
 **dbSNP Common ID**
 
-**Revel Rank Score >=**
+**PROVEAN Rank Score >=** includes variants with PROVEAN rank score not less than 0.9
 
-**SIFT Prediction**
+**Revel Rank Score >=** includes variants with Revel rank score not less than 0.9
+
+**SIFT Prediction** can be set as Damaging or Tolerated.
 
 Using Query Builder
 -------------------
