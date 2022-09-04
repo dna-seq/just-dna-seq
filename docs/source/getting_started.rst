@@ -4,13 +4,17 @@ Getting Started
 OakVar vs OpenCravat
 --------------------
 
+Both OpenCravat and OakVar can be used to annotate a human genome. However, as OakVar is based on OpenCravat and contains more advanced features customized specially for personal longevity genomics, it is recommended to use OakVar, and this documentation is based on it.
+
+* **NOTE:** *An older OpenCravat-based version of documentation (in progress) could be found here: https://just-dna-seq.readthedocs.io/en/master/*
+
 Installing OakVar
------------------
+----------------------------
+
+Instructions how to install OakVar could be found in the OakVar documentation: https://oakvar.readthedocs.io/en/latest/
 
 Uploading Your Genome
 ---------------------
-
-In OakVar:
 
 1. Open OakVar in your browser. You will see the index page:
 
@@ -50,14 +54,5 @@ Annotating a large genome file may take some time. While loading, it will appear
 
 .. image:: genome-annotated.png
   :alt: Genome annotated
-
-Register with OpenCravat
-------------
-
-.. _assemblies:
-
-Genome assemblies supported by OpenCravat
-------------
-
-Uploading files
-------------
+  
+Now click the **Open Results Viewer** button, and the annotated genome will open in a new browser tab/window.
