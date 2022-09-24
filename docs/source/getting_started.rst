@@ -1,8 +1,8 @@
 Getting Started
 ===============
 
-OakVar vs OpenCravat
---------------------
+Choosing Framework: OakVar vs OpenCravat
+----------------------------------------
 
 Both OpenCravat and OakVar can be used to annotate a human genome. However, as OakVar is based on OpenCravat and contains more advanced features customized specially for personal longevity genomics, it is recommended to use OakVar, and this documentation is based on it.
 
@@ -13,7 +13,7 @@ Installing OakVar
 
 Instructions how to install OakVar could be found in the OakVar documentation: https://oakvar.readthedocs.io/en/latest/
 
-Uploading Your Genome
+Loading Genome Files
 ---------------------
 
 1. Open OakVar in your browser. You will see the index page:
@@ -32,9 +32,53 @@ After loading the file(s) it will show next to the **Add input files** button al
 .. image:: vcf-loaded.png
   :alt: vcf files loaded
   
-4. Scroll the left area down to the **Annotations** section.
+Selecting Annotators
+--------------------
+  
+Scroll the left area down to the **Annotations** section.
 
-Here you can select categories of annotators (above) and checkboxes for particular annotators. Let's select the **ClinVar** annotator from the **Clinical Relevance** category:
+Here you can select categories of annotators (above) and checkboxes for particular annotators.
+
+Annotators can be divided into 2 groups:
+
+1) Tools that predict pathogenicity (bold)
+2) Tools that provide information like databases
+
+• **cadd_exome** (1.6.1) CADD is a tool for scoring the deleteriousness of single nucleotide variants as well as insertion/deletions variants in the human genome.
+
+• gnomad_gene (2.2.1) Gene level population statistics from gnomAD
+
+• pubmed (1.1.5) articles related to a particular gene
+
+• **clingen** (1.0.1) - NIH-funded resource that defines the clinical relevance of genes and variants
+
+• **clinpred** (1.0.0) - prediction tool to identify disease-relevant nonsynonymous single nucleotide variants
+
+• clinvar (2021.10.01) - ClinVar is an archive of reports of the relationships among human variations and phenotypes, archive of interpretations of clinically relevant variants (Uncertain significance, Likely pathogenic, Pathogenic etc.)
+
+• mitomap (1.1.0) A human mitochondrial genome database
+
+• ncbigene (2019.08.02) -  gene descriptions from NCBI (National Center for Biotechnology Information)Gene database.
+
+• omim (1.0.0) Catalog of human genes and genetic disorders and traits.
+
+• **prec** (3.6.0)provides a database identifying rare and likely deleterious loss-of-function (LoF) alleles
+
+• **provean** (1.0.0), tool which predicts whether an amino acid substitution or indel has an impact on the biological function of a protein
+
+• **revel** (2020.12.02), ensemble method for predicting the pathogenicity of missense variants based on a combination of scores from 13 individual tools
+
+• **sift** (1.2.0) predicts whether an amino acid substitution affects protein function based on sequence homology and the physical properties of amino acids
+
+• GnomADD aggregating and harmonizing both exome and genome sequencing data from a wide variety of large-scale sequencing projects
+
+• PharmGKB
+
+• dbSNP
+
+The most important annotators for us are **ClinVar** and **dbSNP**.
+
+For example, let's just select the **ClinVar** annotator from the **Clinical Relevance** category:
 
 .. image:: select-annotations.png
   :alt: Selecting annotators
@@ -48,11 +92,17 @@ If you right-click any annotator, a pop-up window with its description will open
 .. image:: annotation-description.png
   :alt: Annotator description
   
-5. When you select all the annotators you need, click the large **ANNOTATE** button below in the left area.
+Annotating Your Genome  
+----------------------
+  
+When you select all the annotators you need, click the large **ANNOTATE** button below in the left area.
 
 Annotating a large genome file may take some time. While loading, it will appear in the right area on the top of the list, displaying different stages of the processing in the **Status** column, and when finished, the **Open Results Viewer** button will appear in that column of the particular genome row:
 
 .. image:: genome-annotated.png
   :alt: Genome annotated
+  
+Opening Your Annotated Genome
+----------------------------
   
 Now click the **Open Results Viewer** button, and the annotated genome will open in a new browser tab/window.
