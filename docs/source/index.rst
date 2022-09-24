@@ -18,7 +18,6 @@ Contents
 .. toctree::
 
    getting_started
-   annotators
    filters
    working_with_info
    use_cases
