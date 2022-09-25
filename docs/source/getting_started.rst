@@ -76,9 +76,7 @@ Annotators can be divided into 2 groups:
 
 • dbSNP
 
-The most important annotators for us are **ClinVar** and **dbSNP**.
-
-For example, let's just select the **ClinVar** annotator from the **Clinical Relevance** category:
+For example, let's select the **ClinVar** annotator from the **Clinical Relevance** category:
 
 .. image:: select-annotations.png
   :alt: Selecting annotators
@@ -91,6 +89,8 @@ If you right-click any annotator, a pop-up window with its description will open
 
 .. image:: annotation-description.png
   :alt: Annotator description
+  
+For our purposes we will need the following annotators: **ClinVar**, **dbSNP**, **LongevityMap**, and **PRS Annotator**. To simplify their selection, select **All** categories, and then select each of the annotator checkboxes.  
   
 Annotating Your Genome  
 ----------------------
