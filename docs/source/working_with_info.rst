@@ -17,6 +17,9 @@ The table contains columns and column sets with general info about the filtered 
 
 Each row of the table represents a variant that you can research.
 
+The most important column groups for us are listed below, along with columns:
+
+
 Variant Annotation
 ------------------
 
@@ -30,15 +33,15 @@ Ref Base - Reference allele at this chromosomal position (one of A,C,G,T, and N)
 
 Alt Base - Alternative allele; called based on reads mapping to this chromosomal position.
 
-Note -
+Note - Note for the variant, if available.
 
-Coding -
+Coding - whether this gene variant is coding.
 
-Gene -
+Gene - the gene this variant belongs to.
 
 Transcript -
 
-RefSeq -
+RefSeq - reference sequence
 
 Sequence Ontology -
 
@@ -55,40 +58,20 @@ Samples -
 Tags -
 
 
-CADD Exome
-----------
-
-Score -
-
-Phred -
-
-
-CardioBoost
------------
-
-
-Cardiovascular Disease Knowledge Portal
----------------------------------------
-
-
-ClinPred
---------
-
-
 ClinVar
 -------
 
-Clinical Significance -
+Clinical Significance - the level of clinical significance of the variant.
 
-Disease Ref Nums -
+Disease Ref Nums - disease reference numbers.
 
-Disease Names -
+Disease Names - names of diseases associated with the variant.
 
-Review Status -
+Review Status - the level of review supporting clinical significance.
 
-ClinVar ID -
+ClinVar ID - ID in the ClinVar database.
 
-Significance Detail -
+Significance Detail - additional detail on clinical significance used when it is conflicting.
 
 
 dbSNP
@@ -100,55 +83,36 @@ This column is empty if the observed variant is not described in dbSNP. Such
 variants can be extremely rare variants or technical artifacts.
 
 
-Extra VCF INFO Annotations
---------------------------
+LongevityMap Annotator
+----------------------
 
-Gencode Gene Mapper
--------------------
+dbSNP id - ID of the variant in dbSNP.
 
+Associated Genes -
 
-gnomAD Gene
------------
+PubMed ID -
 
+Info -
 
-GWAS Catalog
-------------
+Description -
 
+allele -
 
-NCBI Gene
----------
+state -
 
+zygosity -
 
-OMIM
-----
+weight -
 
-
-Original Input
---------------
-
-
-PharmGKB
---------
-
-
-PubMed
-------
-
-
-REVEL
------
-
-
-SIFT
-----
+priority -
 
 
 VCF Info
 --------
 
-Phred -
+Phred - Phred quality score.
 
-VCF Filter -
+VCF Filter - if the VCF filter is passed (PASS)
 
 Zygosity - Most likely zygosity of the variant this chromosomal position, computed from the
 observed variant frequency (column 8) and can be “FP/HET” (<15%), “HET” (15-
@@ -158,8 +122,8 @@ Alternate reads - Number of reads showing the alternative allele.
 
 Total reads - Total number of reads.
 
-Variant AF -
+Variant AF - variant allele frequency.
 
-Haplotype block ID -
+Haplotype block ID - ID of the haplotype block.
 
-Haplotype strand ID -
+Haplotype strand ID - ID of the haplotype strand.
