@@ -32,17 +32,21 @@ After loading the file(s) it will show next to the **Add input files** button al
 .. image:: vcf-loaded.png
   :alt: vcf files loaded
   
-Selecting Annotators
---------------------
+Installing and Selecting Necessary Annotators
+---------------------------------------------
   
 Scroll the left area down to the **Annotations** section.
 
-Here you can select categories of annotators (above) and checkboxes for particular annotators.
+Here you can see categories of annotators available for selection (above)  and checkboxes for particular annotators.
 
-Annotators can be divided into 2 groups:
+Annotators are software modules which can be developed, added and installed as needed. If any necessary annotator is not yet installed, you can install it on the **STORE** tab in the upper left corner.
+
+All annotators can be divided into 2 groups:
 
 1) Tools that predict pathogenicity (bold)
 2) Tools that provide information like databases
+
+Here are their internal (coded) module names:
 
 • **cadd_exome** (1.6.1) CADD is a tool for scoring the deleteriousness of single nucleotide variants as well as insertion/deletions variants in the human genome.
 
@@ -76,6 +80,8 @@ Annotators can be divided into 2 groups:
 
 • dbSNP
 
+Once an annotator is installed, you can select in on the **JOBS** tab in the upper left corner.
+
 For example, let's select the **ClinVar** annotator from the **Clinical Relevance** category:
 
 .. image:: select-annotations.png
@@ -90,7 +96,7 @@ If you right-click any annotator, a pop-up window with its description will open
 .. image:: annotation-description.png
   :alt: Annotator description
   
-For our purposes we will need the following annotators: **ClinVar**, **dbSNP**, **LongevityMap**, and **PRS Annotator**. To simplify their selection, select **All** categories, and then select each of the annotator checkboxes.  
+For our purposes we will need the following annotators: **ClinVar** (clinvar), **dbSNP** (dbsnp), **gnomAD3** (gnomad), **LongevityMap** (longevitymap), **NCBI Gene** (ncbigene), **OMIM** (omim), and **PubMed** (pubmed). If any of them are missing, install them on the **STORE** tab, then go back to **JOBS**, in the **Annotations** section  select **All** categories, and then select each of the annotator checkboxes.  
   
 Annotating Your Genome  
 ----------------------
