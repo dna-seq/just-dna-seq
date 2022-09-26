@@ -39,23 +39,23 @@ Coding - whether this gene variant is coding.
 
 Gene - the gene this variant belongs to.
 
-Transcript -
+Transcript - GENCODE transcript.
 
-RefSeq - reference sequence
+RefSeq - reference sequence.
 
-Sequence Ontology -
+Sequence Ontology - could be: missense variant, start lost, stop gained, or stop lost. 
 
-cDNA change -
+cDNA change - change of coding DNA.
 
-Protein Change -
+Protein Change - change of protein being synthesized.
 
-All Mappings -
+All Mappings - expression showing all the mappings.
 
-Sample Count -
+Sample Count - number of samples which contain the variant.
 
-Samples -
+Samples - samples which contain the variant.
 
-Tags -
+Tags - variant tags from the input file.
 
 
 ClinVar
@@ -86,25 +86,31 @@ variants can be extremely rare variants or technical artifacts.
 LongevityMap Annotator
 ----------------------
 
+LongevityMap ID - ID(s) of the variant in LongevityMap.
+
+Significance - could be: significant, non-significant, or conflicted.
+
+Source Population - population the data were obtained on, e. g. Danish or American (Caucasian).
+
 dbSNP id - ID of the variant in dbSNP.
 
-Associated Genes -
+Associated Genes - genes associated with the variant.
 
-PubMed ID -
+PubMed ID - ID of the variant in PubMed.
 
-Info -
+Info - additional information
 
-Description -
+Description - detailed description of the research.
 
-allele -
+allele - allele associated with the variant.
 
-state -
+state - state of the variant.
 
-zygosity -
+zygosity - zygosity of the variant vs OV.
 
-weight -
+weight - weight of the variant.
 
-priority -
+priority - priority of the variant.
 
 
 VCF Info
