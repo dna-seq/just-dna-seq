@@ -1,12 +1,12 @@
 Just-DNA-Seq Documentation README
 =======================================
 
-This is repository which containes files needed to build Just-DNA-Seq documentation on ReadTheDocs.
+This is a repository which containes files needed to build Just-DNA-Seq documentation on ReadTheDocs.
 
 You can read the documentation here:
 https://just-dna-seq.readthedocs.io/en/oakvar/
 
----
+---------
 Documentation files are located in /docs/source
 
 Home page is index.rst
