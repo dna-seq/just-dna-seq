@@ -19,7 +19,10 @@ Pre requirements for Oakvar:
   - installed python and pip
 
 You can find documentation for mamba here: https://mamba.readthedocs.io/en/latest/index.html
-And for conda here: https://docs.conda.io/en/latest/#
+
+And for conda here: https://docs.conda.io/en/latest/
+
+
 **The installation of OakVar and further work must proceed after activation of an environment created by Conda/Mamba or Miniconda/Micromamba.**
 
 Installing Annotators
@@ -37,20 +40,27 @@ For Longevity module to work you need to install the following annotators:
 You can install them by using terminal or Oakvar GUI
 
 **Installation using terminal:**
+
 Use the following command:
+
 ``ov module install module_name``
 
 
 **Installation using GUI:**
+
 To activate Oakvar GUI use the following command:
+
 ``ov gui``
 
 After the execution GUI will be opened in your browser.
+
 Go to “Store”:
+
 .. image:: gui-installation1.png
   :alt: gui-installation store
 
 Find annotators and install them:
+
 .. image:: gui-installation2.png
   :alt: gui-installation annotators
 
@@ -59,18 +69,24 @@ Installing reporter
 --------------------
 
 **Installation using terminal:**
+
 Use the followin command in terminal:
+
 ``ov module install longevity-combinedreporter``
 
 **Installation using GUI:**
 
 To activate Oakvar GUI use the following command:
+
 ``ov gui``
+
 Go to “Store”:
+
 .. image:: gui-installation1.png
   :alt: gui-installation store
 
 Find the reporter called “longevity-combinedreporter” and install it:
+
 .. image:: gui-installation3.png
   :alt: gui-installation reporter
 
