@@ -45,16 +45,16 @@ For Longevity module to work you need to install the following annotators:
 7.	longevitymap
 
 You can install them by using terminal or Oakvar GUI
-|
-|
+
+
 **Installation using terminal:**
 
 Use the following command:
 
 ``ov module install module_name``
-|
-|
-|
+
+
+
 **Installation using GUI:**
 
 To activate Oakvar GUI use the following command:
