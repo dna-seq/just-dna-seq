@@ -23,29 +23,38 @@ You can find documentation for mamba here: https://mamba.readthedocs.io/en/lates
 And for conda here: https://docs.conda.io/en/latest/
 
 
-**The installation of OakVar and further work must proceed after activation of an environment created by Conda/Mamba or Miniconda/Micromamba.**
+*The installation of OakVar and further work must proceed after activation of an environment created by Conda/Mamba or Miniconda/Micromamba.*
 
 Installing Annotators
 ----------------------
 
 For Longevity module to work you need to install the following annotators:
+
 1.	clinvar
+
 2.	dbsnp
+
 3.	gnomad
+
 4.	ncbigene
+
 5.	omim
+
 6.	pubmed
+
 7.	longevitymap
 
 You can install them by using terminal or Oakvar GUI
-
+|
+|
 **Installation using terminal:**
 
 Use the following command:
 
 ``ov module install module_name``
-
-
+|
+|
+|
 **Installation using GUI:**
 
 To activate Oakvar GUI use the following command:
