@@ -5,7 +5,7 @@ This is a repository which containes files needed to build Just-DNA-Seq document
 
 You can read the documentation here: https://just-dna-seq.readthedocs.io/en/oakvar/
 
-*It is being built from oakvar branch.* "master" is the legacy OpenCravat version
+*It is being built from oakvar branch. "master" is the legacy OpenCravat version.*
 
 Documentation files are located in /docs/source
 
