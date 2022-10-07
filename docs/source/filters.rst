@@ -76,7 +76,7 @@ Within the parentheses, you can create any number of rules, and there are separa
 
 You can also move any rule to another rule. To do this, drag an anchor **||** which appears from the left side of the rule if you hover the mouse there, and drop it on any rounded **+** anchors which appear between rules and/or parentheses (not on the **+** button that adds rules).
 
-**BUG: if dropping a rule on certain location, it redirects browser to an error page**
+**BUG NOTE: If dropping a rule just before or after itself, it redirects browser to an error page. In this case all the previously made filter settings may not be saved. Please avoid dropping a rule before or after itself until this bug is fixed in Oakvar.**
 
 Filtering by Genes
 ------------------
