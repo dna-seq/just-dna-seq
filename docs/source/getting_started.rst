@@ -1,17 +1,12 @@
 Getting Started
 ===============
 
-Choosing Framework: OakVar vs OpenCravat
-----------------------------------------
-
-Both OpenCravat and OakVar can be used to annotate a human genome. However, as OakVar is based on OpenCravat and contains more advanced features customized specially for personal longevity genomics, it is recommended to use OakVar, and this documentation is based on it.
-
-* **NOTE:** *An older OpenCravat-based version of documentation (in progress) could be found here: https://just-dna-seq.readthedocs.io/en/master/*
+**NOTE:** *Both OpenCravat and OakVar can be used to annotate a human genome. At the beginning of the project we used OpenCravat as a framework. However, as OakVar is based on OpenCravat and contains more advanced features customized specially for personal longevity genomics, we decided to base further development of the project on OakVar.*
 
 Installing OakVar
 ----------------------------
 
-Our module is based on OakVar. You have to install OakVar first to run our module. 
+Since our module is based on OakVar. You have to install OakVar first to run our module. 
 OakVar docs: https://oakvar.readthedocs.io/en/latest/
 
 Pre requirements for Oakvar: 
