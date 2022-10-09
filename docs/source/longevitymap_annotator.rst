@@ -14,7 +14,7 @@ Polygenic risk score (PRS) is a number that summarizes the estimated effect of m
 You can learn how to install LongevityMap Annotator :doc:`getting_started`.
 
 Working With Annotated Variants
-===============================
+-----------------------------------
 
 Select the **Variants** page.
 
