@@ -1,18 +1,9 @@
-Longevity Combined reporter
+Longevity Combined Reporter
 ===============
 
-Just-DNA-Seq makes a set of reports on a genome which contain data about longevity-related gene variants, known cancer risks and drug responses.
+Just-DNA-Seq makes a set of reports on a genome which contain data about PRS, longevity-related gene variants, known cancer risks and drug responses.
 
-Opening Reports
----------------
-
-1. Go to **Reports** page.
-
-2. In the **Longevity Combined** section, click **Download**.
-
-3. When asked by your web browser what to do with the report file, open in in the browser, and it will be opened on a new tab.
-
-4. Switch to the report tab in your browser.
+You can learn how to get your longevity report and install Longevity Combined reporter in :doc:`getting_started`.
 
 Part 1: Longevity Significant Variations
 ----------------------------------------
