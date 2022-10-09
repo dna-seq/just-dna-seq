@@ -5,6 +5,8 @@ Just-DNA-Seq makes a set of reports on a genome which contain data about PRS, lo
 
 You can learn how to get your longevity report and install Longevity Combined reporter in :doc:`getting_started`.
 
+Source code on GitHub (here you also can learn how to install it from GitHub): https://github.com/dna-seq/oakvar-longevity
+
 Part 1: Longevity Significant Variations
 ----------------------------------------
 
