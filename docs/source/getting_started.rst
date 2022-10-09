@@ -143,21 +143,31 @@ Annotating Your Genome
 
 Once an annotator is installed, you can select in on the **JOBS** tab in the upper left corner.
 
-For example, let's select the **ClinVar** annotator from the **Clinical Relevance** category:
+You should select the following annotators in "Annotations" menu:
 
-.. image:: select-annotations.png
-  :alt: Selecting annotators
-  
-**Note:** An annotator may belong to multiple categories at once.
+1.	ClinVar (clinvar)
 
-The checkbox and **X** buttons between the categories and the annotators sections allow to select all of the displayed annotator chechboxes or to clear all of them.
+2.	dbSNP (dbsnp)
+
+3.	gnomAD3 (gnomad)
+
+4.	NCBI Gene (ncbigene)
+
+5.	OMIM (omim)
+
+6.	PubMed (pubmed)
+
+7.	LongevityMap (longevitymap)
+
+The result should look like that:
+
+.. image:: annotation_menu.png
+  :alt: Annotation menu
 
 If you right-click any annotator, a pop-up window with its description will open in the right area:
 
 .. image:: annotation-description.png
   :alt: Annotator description
-  
-For our purposes we will need the following annotators: **ClinVar** (clinvar), **dbSNP** (dbsnp), **gnomAD3** (gnomad), **LongevityMap** (longevitymap), **NCBI Gene** (ncbigene), **OMIM** (omim), and **PubMed** (pubmed). If any of them are missing, install them on the **STORE** tab, then go back to **JOBS**, in the **Annotations** section  select **All** categories, and then select each of the annotator checkboxes.  
   
 When you select all the annotators you need, click the large **ANNOTATE** button below in the left area.
 
