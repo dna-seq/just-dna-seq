@@ -20,28 +20,11 @@ And for conda here: https://docs.conda.io/en/latest/
 
 *The installation of OakVar and further work must proceed after activation of an environment created by Conda/Mamba or Miniconda/Micromamba.*
 
-
-Loading Genome Files
----------------------
-
-1. After the installation of OakVar is finished you can activate Oakvar GUI using the following command:
+After the installation is finished you can activate Oakvar GUI using the following command:
 
 ``ov gui``
   
-2. After the execution OakVar will be opened in your browser.
-  
-3. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
-
-**Note:** A genome assembly is a computational representation of a genome sequence. Here you are choosing an assembly version of human genome which is a reference one to your genome.
-
-For example we'll take a small VCF file of the hg19/GRCh37 version named example.vcf.
-
-4. Click **Add input files**. A file upload dialog will open, allowing to browse and select the vcf file (or multiple files at once).
-
-After loading the file(s) it will show next to the **Add input files** button along with another button **Clear file(s)** and a small **X** button next to each file name. If you click that **X**, the appropriate file will be deleted. If you click **Clear file(s)**, all the files you loaded will be deleted.
-
-.. image:: vcf-loaded.png
-  :alt: vcf files loaded
+After the execution OakVar will be opened in your browser.
 
 
 LongevityMap annotator
@@ -136,6 +119,23 @@ Find the reporter called “longevity-combinedreporter” and install it:
 
 .. image:: gui-installation3.png
   :alt: gui-installation reporter
+
+Loading Genome Files
+---------------------
+
+1. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
+
+**Note:** A genome assembly is a computational representation of a genome sequence. Here you are choosing an assembly version of human genome which is a reference one to your genome.
+
+For example we'll take a small VCF file of the hg19/GRCh37 version named example.vcf.
+
+2. Click **Add input files**. A file upload dialog will open, allowing to browse and select the vcf file (or multiple files at once).
+
+After loading the file(s) it will show next to the **Add input files** button along with another button **Clear file(s)** and a small **X** button next to each file name. If you click that **X**, the appropriate file will be deleted. If you click **Clear file(s)**, all the files you loaded will be deleted.
+
+.. image:: vcf-loaded.png
+  :alt: vcf files loaded
+
 
 
 Annotating Your Genome  
