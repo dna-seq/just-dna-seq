@@ -26,7 +26,7 @@ Loading Genome Files
 
 1. After the installation of OakVar is finished you can activate Oakvar GUI using the following command:
 
-  ``ov gui``
+``ov gui``
   
 2. After the execution OakVar will be opened in your browser.
   
