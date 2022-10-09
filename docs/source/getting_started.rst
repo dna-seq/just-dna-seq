@@ -20,24 +20,56 @@ And for conda here: https://docs.conda.io/en/latest/
 
 *The installation of OakVar and further work must proceed after activation of an environment created by Conda/Mamba or Miniconda/Micromamba.*
 
-Installing Annotators
-----------------------
+
+Loading Genome Files
+---------------------
+
+1. After the installation of OakVar is finished you can activate Oakvar GUI using the following command:
+
+  ``ov gui``
+  
+2. After the execution OakVar will be opened in your browser.
+  
+3. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
+
+**Note:** A genome assembly is a computational representation of a genome sequence. Here you are choosing an assembly version of human genome which is a reference one to your genome.
+
+For example we'll take a small VCF file of the hg19/GRCh37 version named example.vcf.
+
+4. Click **Add input files**. A file upload dialog will open, allowing to browse and select the vcf file (or multiple files at once).
+
+After loading the file(s) it will show next to the **Add input files** button along with another button **Clear file(s)** and a small **X** button next to each file name. If you click that **X**, the appropriate file will be deleted. If you click **Clear file(s)**, all the files you loaded will be deleted.
+
+.. image:: vcf-loaded.png
+  :alt: vcf files loaded
+
+
+LongevityMap annotator
+---------------------------------------------
+
+Annotators are software modules which can be developed, added and installed as needed. They identify the locations of genes and all of the coding regions in a genome and determining what those genes do.
+
+Longevity module includes **Logevitymap** annotator. 
+
+LongevityMap is based on Pedro database: https://genomics.senescence.info/longevity/
+
+It contains research and publications related to longevity and ranges them by significance. It aggregate all research by rsid to feet annotator output format. Furthermore, it depends on dbsnp module and is the source of data for longevitymap reporter.
 
 For Longevity module to work you need to install the following annotators:
 
-1.	clinvar
+1.	ClinVar (clinvar)
 
-2.	dbsnp
+2.	dbSNP (dbsnp)
 
-3.	gnomad
+3.	gnomAD3 (gnomad)
 
-4.	ncbigene
+4.	NCBI Gene (ncbigene)
 
-5.	omim
+5.	OMIM (omim)
 
-6.	pubmed
+6.	PubMed (pubmed)
 
-7.	longevitymap
+7.	LongevityMap (longevitymap)
 
 You can install them by using terminal or Oakvar GUI
 
@@ -66,11 +98,22 @@ Go to “Store”:
 Find annotators and install them:
 
 .. image:: gui-installation2.png
-  :alt: gui-installation annotators
+  :alt: gui-installation annotators 
 
-
-Installing reporter
+Longevity Combined reporter
 --------------------
+
+Reporter is sofware that generates the visual results of your annotated genome. **Longevity Combined reporter** display your genome analysis related to longevity and disease risks.
+
+It consist of 3 parts:
+
+1. LongevityMap report, show your longevity-related rsid and their influence.
+
+2. Cancer report, show cancer risks.
+
+3. Drug report, show how your genome influences drug effects.
+
+To install Longevity reporter you can use terminal or OakVar GUI:
 
 **Installation using terminal:**
 
@@ -94,72 +137,9 @@ Find the reporter called “longevity-combinedreporter” and install it:
 .. image:: gui-installation3.png
   :alt: gui-installation reporter
 
-Loading Genome Files
----------------------
 
-1. Open OakVar in your browser. You will see the index page:
-
-.. image:: index.png
-  :alt: Index page
-
-2. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
-
-For example we'll take a small VCF file of the hg19/GRCh37 version named example.vcf.
-
-3. Click **Add input files**. A file upload dialog will open, allowing to browse and select the vcf file (or multiple files at once).
-
-After loading the file(s) it will show next to the **Add input files** button along with another button **Clear file(s)** and a small **X** button next to each file name. If you click that **X**, the appropriate file will be deleted. If you click **Clear file(s)**, all the files you loaded will be deleted.
-
-.. image:: vcf-loaded.png
-  :alt: vcf files loaded
-  
-Installing and Selecting Necessary Annotators
----------------------------------------------
-  
-Scroll the left area down to the **Annotations** section.
-
-Here you can see categories of annotators available for selection (above)  and checkboxes for particular annotators.
-
-Annotators are software modules which can be developed, added and installed as needed. If any necessary annotator is not yet installed, you can install it on the **STORE** tab in the upper left corner.
-
-All annotators can be divided into 2 groups:
-
-1) Tools that predict pathogenicity (bold)
-2) Tools that provide information like databases
-
-Here are their internal (coded) module names:
-
-• **cadd_exome** (1.6.1) CADD is a tool for scoring the deleteriousness of single nucleotide variants as well as insertion/deletions variants in the human genome.
-
-• gnomad_gene (2.2.1) Gene level population statistics from gnomAD
-
-• pubmed (1.1.5) articles related to a particular gene
-
-• **clingen** (1.0.1) - NIH-funded resource that defines the clinical relevance of genes and variants
-
-• **clinpred** (1.0.0) - prediction tool to identify disease-relevant nonsynonymous single nucleotide variants
-
-• clinvar (2021.10.01) - ClinVar is an archive of reports of the relationships among human variations and phenotypes, archive of interpretations of clinically relevant variants (Uncertain significance, Likely pathogenic, Pathogenic etc.)
-
-• mitomap (1.1.0) A human mitochondrial genome database
-
-• ncbigene (2019.08.02) -  gene descriptions from NCBI (National Center for Biotechnology Information)Gene database.
-
-• omim (1.0.0) Catalog of human genes and genetic disorders and traits.
-
-• **prec** (3.6.0)provides a database identifying rare and likely deleterious loss-of-function (LoF) alleles
-
-• **provean** (1.0.0), tool which predicts whether an amino acid substitution or indel has an impact on the biological function of a protein
-
-• **revel** (2020.12.02), ensemble method for predicting the pathogenicity of missense variants based on a combination of scores from 13 individual tools
-
-• **sift** (1.2.0) predicts whether an amino acid substitution affects protein function based on sequence homology and the physical properties of amino acids
-
-• GnomADD aggregating and harmonizing both exome and genome sequencing data from a wide variety of large-scale sequencing projects
-
-• PharmGKB
-
-• dbSNP
+Annotating Your Genome  
+----------------------
 
 Once an annotator is installed, you can select in on the **JOBS** tab in the upper left corner.
 
@@ -179,17 +159,29 @@ If you right-click any annotator, a pop-up window with its description will open
   
 For our purposes we will need the following annotators: **ClinVar** (clinvar), **dbSNP** (dbsnp), **gnomAD3** (gnomad), **LongevityMap** (longevitymap), **NCBI Gene** (ncbigene), **OMIM** (omim), and **PubMed** (pubmed). If any of them are missing, install them on the **STORE** tab, then go back to **JOBS**, in the **Annotations** section  select **All** categories, and then select each of the annotator checkboxes.  
   
-Annotating Your Genome  
-----------------------
-  
 When you select all the annotators you need, click the large **ANNOTATE** button below in the left area.
 
 Annotating a large genome file may take some time. While loading, it will appear in the right area on the top of the list, displaying different stages of the processing in the **Status** column, and when finished, the **Open Results Viewer** button will appear in that column of the particular genome row:
 
 .. image:: genome-annotated.png
   :alt: Genome annotated
-  
-Opening Your Annotated Genome
+
+Getting results
 ----------------------------
+
+To get your Longevity Report, first, click on "+" in "Download" column:
+
+.. image:: +.png
+  :alt: how to generate report
   
-Now click the **Open Results Viewer** button, and the annotated genome will open in a new browser tab/window.
+Then choose a report type "longevity_combined":
+
+.. image:: secondstep.png
+  :alt: how to generate report
+
+and then click on "Generate" button and wait for report to be generated. After the process is finished, you can download the report by clicking on new appeared "LONGEVITY_COMBINED" button: 
+
+.. image:: thirdstep.png
+  :alt: how to generate report
+
+In next sections of this documentation you can read detailed information about LongevityMap annotator, Longevity Reporter and how to work with filters of OakVar.
