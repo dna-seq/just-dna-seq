@@ -13,6 +13,9 @@ Polygenic risk score (PRS) is a number that summarizes the estimated effect of m
 
 You can learn how to install LongevityMap Annotator :doc:`getting_started`.
 
+Source code on GitHub (here you also can learn how to install it from GitHub): https://github.com/dna-seq/oakvar-longevity
+
+
 Working With Annotated Variants
 -----------------------------------
 
