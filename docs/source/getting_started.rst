@@ -123,7 +123,7 @@ Find the reporter called “longevity-combinedreporter” and install it:
 Loading Genome Files
 ---------------------
 
-1. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
+1. In the **Variants** section you can see different assembly versions of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36. It is usually chosen automatically by OakVar taking in consideration your vcf file. So you don't have to choose it yourself.
 
 **Note:** A genome assembly is a computational representation of a genome sequence. Here you are choosing an assembly version of human genome which is a reference one to your genome.
 
