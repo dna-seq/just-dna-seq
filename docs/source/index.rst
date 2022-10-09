@@ -20,6 +20,6 @@ Contents
 .. toctree::
 
    getting_started
+   longevitymap_annotator
+   longevity_combinedreporter
    filters
-   working_with_info
-   viewing-reports
