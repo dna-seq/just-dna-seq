@@ -1,4 +1,4 @@
-Viewing Reports
+Longevity Combined reporter
 ===============
 
 Just-DNA-Seq makes a set of reports on a genome which contain data about longevity-related gene variants, known cancer risks and drug responses.
