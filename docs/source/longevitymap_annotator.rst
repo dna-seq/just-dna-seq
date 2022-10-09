@@ -11,6 +11,7 @@ It contains research and publications related to longevity and ranges them by si
 
 Polygenic risk score (PRS) is a number that summarizes the estimated effect of many genetic variants on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles. It reflects an individual's estimated genetic predisposition for a given trait and can be used as a predictor for that trait.
 
+You can learn how to install LongevityMap Annotator in :ref:`getting started section<getting_started>`
 
 Working With Annotated Variants
 ===============================
