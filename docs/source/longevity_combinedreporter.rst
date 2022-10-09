@@ -7,7 +7,15 @@ You can learn how to get your longevity report and install Longevity Combined re
 
 Source code on GitHub (here you also can learn how to install it from GitHub): https://github.com/dna-seq/oakvar-longevity
 
-Part 1: Longevity Significant Variations
+
+Part 1: Polygenic risk scores (PRSs) for gaining longevity
+----------------------------------------
+
+PRS is represented as a percentile within a given population. For example, you have the 95th percentile, which means your genetic chances to gain extreme longevity is higher than 95 out of every 100 people in a chosen population.
+
+It does not take into account environmental factors and based on genetics only.
+
+Part 2: Longevity Significant Variations
 ----------------------------------------
 
 This report contains gene variants which have significant influence on longevity. It contains the following columns:
@@ -31,7 +39,7 @@ Clicking **+** in the header opens the details for all rows and behaves in the s
 
 **Weight** - weight of this variant (the degree of significance).
 
-Part 2: Cancer Report
+Part 3: Cancer Report
 ---------------------
 
 This report shows variants with known cancer risks and contains the following columns:
@@ -58,7 +66,7 @@ This report shows variants with known cancer risks and contains the following co
 
 **Significance** - description of significance of this variant.
 
-Part 3: Drugs Report
+Part 4: Drugs Report
 --------------------
 
 This report contains known issues of response to certain drugs associated with gene variants. It has the following columns:
