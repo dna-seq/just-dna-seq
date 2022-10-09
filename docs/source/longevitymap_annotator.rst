@@ -1,4 +1,4 @@
-LongevityMap annotator
+LongevityMap Annotator
 ===============================
 
 There are a few annotators inside LongevityMap annotator:
