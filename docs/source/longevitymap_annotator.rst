@@ -1,7 +1,21 @@
+LongevityMap annotator
+===============================
+
+There are a few annotators inside LongevityMap annotator:
+
+1. longevitymap - for longevity related information, original data from https://genomics.senescence.info
+
+It contains research and publications related to longevity and ranges them by significance. It aggregate all research by rsid to feet annotator output format. Furthermore, it depends on dbsnp module and is the source of data for longevitymap reporter.
+
+2. prs - for polygenic risk scores.
+
+Polygenic risk score (PRS) is a number that summarizes the estimated effect of many genetic variants on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles. It reflects an individual's estimated genetic predisposition for a given trait and can be used as a predictor for that trait.
+
+
 Working With Annotated Variants
 ===============================
 
-After applying the necessary filters, select the **Variants** page.
+Select the **Variants** page.
 
 By default a combined view is displayed, with both table and widgets:
 
