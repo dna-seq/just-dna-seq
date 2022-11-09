@@ -27,7 +27,7 @@ UID - the variant number in this (filtered) sequence
 
 Chrom - chromosome where the variant is located. Chromosome names are ‘chr1’ to ‘chr22’, ‘chrX’, ‘chrY’ and ‘chrM’.
 
-Position - chromosomal position of the variant. THe first position in each chromosome is position 1.
+Position - chromosomal position of the variant. The first position in each chromosome is position 1.
 
 Ref Base - reference allele at this chromosomal position (one of A, C, G, T, and N).
 
