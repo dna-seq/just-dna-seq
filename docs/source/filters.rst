@@ -34,11 +34,11 @@ Here are various useful filters:
 
 **ClinVar** allows to include only variants with data from ClinVar.
 
-**dbSNP Common ID**
+**dbSNP Common ID** allows to include only variants with dbSNP common IDs.
 
-**PROVEAN Rank Score >=** includes variants with PROVEAN rank score not less than 0.9
+**PROVEAN Rank Score >=** includes variants with PROVEAN rank score not less than 0.9.
 
-**Revel Rank Score >=** includes variants with Revel rank score not less than 0.9
+**Revel Rank Score >=** includes variants with Revel rank score not less than 0.9.
 
 **SIFT Prediction** can be set as Damaging or Tolerated.
 
@@ -47,7 +47,7 @@ Using Query Builder
 
 Here you can create a set of filter rules.
 
-By default, an opening (left) parenthesis appears with buttons **+** and **(** in the lower left corner, and a greyed out switch **NOT** appears if you hover the mouse in the upper left corner, which allows to make the following rule negative by clicking on it. Clicking **NOT** once again deactivates it.
+By default, an opening (left) parenthesis appears with **+** and **(** buttons in the lower left corner, and a greyed out switch **NOT** appears if you hover the mouse in the upper left corner, which allows to make the following rule negative by clicking on it. Clicking **NOT** once again deactivates it.
 
 Click **+** to add a rule. A line of boxes will appear:
 
@@ -56,7 +56,7 @@ Click **+** to add a rule. A line of boxes will appear:
 
 The first drop-down box is the source to which the rule will apply. For example: Variant Annotation, ClinVar, PharmGKB etc.
 The second drop-down box allow to select an item in the source to apply the rule. E.g. UID, Chrom, Position, Gene etc.
-The following switch "not", greyed out (inactive) by default, allows to select if the following condition should apply or should not apply. For the latter, click the word "not", and it will become black (active). To remove "not" from the condition, just click it again, and it will be greyed out.
+The following "not" switch, greyed out (inactive) by default, allows to select if the following condition should apply or should not apply. For the latter, click the "not" word, and it will become black (active). To remove "not" from the condition, just click it again, and it will be greyed out.
 The next drop-down allows to select the condition from one of the following:
 **has data** - if the item being searched contains any data
 **equals** - opens one more box where you can enter what the item should be equal to
@@ -66,11 +66,11 @@ The next drop-down allows to select the condition from one of the following:
 **>=** - if the item is greater or equal to the value in the following box
 At the end of the line, a small "x" allows to delete the whole rule by clicking on it.
 
-If you click **+** once again, another rule is added, and between them the operator **and** is displayed by default, meaning that to satisfy the filter, both rules should apply. You can change it to **or** by clicking on it, so that to satisfy the filter, one of rules being true may be enough. Clicking **or** once again turns it to **and** again.
+If you click **+** once again, another rule is added, and between them the **and** operator is displayed by default, meaning that to satisfy the filter, both rules should apply. You can change it to **or** by clicking on it, so that to satisfy the filter, one of rules being true may be enough. Clicking **or** once again turns it to **and** again.
 
 You can add as many rules as you wish, and the operators **and** / **or** between them will follow the general priority logic of boolean operations, i.e. **and** has the priority over **or**, as in any program code.
 
-To change the priority and build more complex logical rules, you can click **(** which makes a separate set of rules (in parentheses), which have higher priority, as in mathematical operations. Note than the **and** / **or** operator which appears before the parentheses depends of the previous operator selected, i.e. if it was **or**, the next one will also be **or**, and vice versa. You can always change the operators by clicking on them.
+To change the priority and build more complex logical rules, you can click **(** making a separate set of rules (in parentheses), which have higher priority, as in mathematical operations. Note than the **and** / **or** operator which appears before the parentheses depends of the previous operator selected, i.e. if it was **or**, the next one will also be **or**, and vice versa. You can always change the operators by clicking on them.
 
 Within the parentheses, you can create any number of rules, and there are separate **+** and **(** buttons to add new rules and nested parentheses inside the parentheses. Also in the upper left corner a separate **NOT** switch appears if you hover the mouse over it.
 
@@ -81,7 +81,7 @@ You can also move any rule to another rule. To do this, drag an anchor **||** wh
 Filtering by Genes
 ------------------
 
-Switch to **Genes** section and enter any particular gene names, one per line. Also you can load them from a file by clicking **Browse...**
+Switch to the **Genes** section and enter any particular gene names, one per line. Also you can load them from a file by clicking **Browse...**
 
 .. image:: filter-genes.png
   :alt: Filtering by genes
@@ -107,13 +107,13 @@ The saved filter appears in the left part of the page in the **Saved Filters** l
 
 To load a saved filter, just click its name.
 To export a saved filter into a file, click the icon with a down arrow next to its name.
-To delete a saved filter, click the X icon in its line.
+To delete a saved filter, click the **X** icon in its line.
 
-To import a filter from a file, click the "up arrow" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter. **NOTE:** the filter is not saved automatically, you need to save it with "Save filter" (inward arrow) button if you want to save in on the server for further working.
+To import a filter from a file, click the "up arrow" (rightmost) button in the lower right corner of the page, and browse for a file to import (e.g. pathogenic.json). Clicking **Open** in the browse window loads the filter. **NOTE:** the filter is not saved automatically, you need to save it using the "Save filter" (inward arrow) button if you want to keep it on the server for further working.
 
 Loading Filtered Variants
 -------------------------
 
-When building a filter, you can click the refresh button next to the number of variants (e.g. **68/12,015,254 variants**) in the lower left corner of the page to check how many results the filter provides. If the number is small enough, when the filter is ready, click **Load** in the lower right corner of the page. After loading the filter, the number of variants in the lower left corner (the first number before the slash, while the second one is the total number of variants and is not changed) may be updated.
+When building a filter, you can click the refresh button next to the number of variants (e.g. **68/12,015,254 variants**) in the lower left corner of the page to check how many results the filter provides. If the number is small enough, when the filter is ready, click **Load** in the lower right corner of the page. After loading the filter, the number of variants in the lower left corner (the first number before the slash, while the second one is the total number of variants and doesn't change) may be updated.
 
 When the filtered variants are loaded, you can proceed to the **Variant** tab to analyse them (see the next section).
