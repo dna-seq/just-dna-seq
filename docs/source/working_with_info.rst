@@ -13,7 +13,7 @@ By clicking the icons in the upper right corner, you can toggle on/off the table
 .. image:: variants-table-view.png
   :alt: Variants table view
 
-The table contains columns and column sets with general information about the filtered variants, as well as connected to certain annotators. Some logically grouped column sets (by a particular annotator) can be extended or collapsed by clicking the **+/-** sign in the upper right corner of the column set (the topmost row). If you filtered by particular annotators, especially using "has data" condition, for other annotators it may show nothing for that particular variants, and they can be collapsed for convenience.
+The table contains columns and column sets with general information about the filtered variants, as well as those connected to certain annotators. Some logically grouped column sets (by a particular annotator) can be extended or collapsed by clicking the **+/-** sign in the upper right corner of the column set (the topmost row). If you filtered by particular annotators, especially using "has data" condition, for other annotators it may show nothing for that particular variants, and they can be collapsed for convenience.
 
 Each row of the table represents a variant that you can research.
 
