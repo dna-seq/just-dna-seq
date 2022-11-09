@@ -30,7 +30,7 @@ Here are various useful filters:
 
 **Coding** allows to include only coding or noncoding variants.
 
-**ClinGen**
+**ClinGen** allows to include only variants with data from ClinGen.
 
 **ClinVar** allows to include only variants with data from ClinVar.
 
