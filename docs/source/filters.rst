@@ -47,7 +47,7 @@ Using Query Builder
 
 Here you can create a set of filter rules.
 
-By default, an opening (left) parenthesis appears with **+** and **(** buttons in the lower left corner, and a greyed out switch **NOT** appears if you hover the mouse in the upper left corner, which allows to make the following rule negative by clicking on it. Clicking **NOT** once again deactivates it.
+By default, an opening (left) parenthesis appears with **+** and **(** buttons in the lower left corner, and a greyed out **NOT** switch appears if you hover the mouse in the upper left corner, which allows to make the following rule negative by clicking on it. Clicking **NOT** once again deactivates it.
 
 Click **+** to add a rule. A line of boxes will appear:
 
@@ -58,12 +58,19 @@ The first drop-down box is the source to which the rule will apply. For example:
 The second drop-down box allow to select an item in the source to apply the rule. E.g. UID, Chrom, Position, Gene etc.
 The following "not" switch, greyed out (inactive) by default, allows to select if the following condition should apply or should not apply. For the latter, click the "not" word, and it will become black (active). To remove "not" from the condition, just click it again, and it will be greyed out.
 The next drop-down allows to select the condition from one of the following:
+
 **has data** - if the item being searched contains any data
+
 **equals** - opens one more box where you can enter what the item should be equal to
+
 **is empty** - if the item being searched is empty
+
 **in range** - opens two boxes where you enter the boundaries of the range where the item should be
+
 **<=** - if the item is less or equal to the value in the following box
+
 **>=** - if the item is greater or equal to the value in the following box
+
 At the end of the line, a small "x" allows to delete the whole rule by clicking on it.
 
 If you click **+** once again, another rule is added, and between them the **and** operator is displayed by default, meaning that to satisfy the filter, both rules should apply. You can change it to **or** by clicking on it, so that to satisfy the filter, one of rules being true may be enough. Clicking **or** once again turns it to **and** again.
