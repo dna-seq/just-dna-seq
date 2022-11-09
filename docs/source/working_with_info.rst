@@ -8,12 +8,12 @@ By default a combined view is displayed, with both table and widgets:
 .. image:: variants-default.png
   :alt: Variants default view
   
-Using buttons in the upper right corner, you can toggle on/off the table view (window-like icon) and the widgets view (piechart-like icon). For our purposes first of all we need the table view:
+By clicking icons in the upper right corner, you can toggle on/off the table view (window-like icon) and the widgets view (piechart-like icon). For our purposes first of all we need the table view:
 
 .. image:: variants-table-view.png
   :alt: Variants table view
 
-The table contains columns and column sets with general info about the filtered variants, as well as connected to certain annotators. Some logically grouped column sets (by a particular annotator) can be extended or collapsed by clicking the +/- sign in the upper right corner of the column set (the topmost row). If you filtered by particular annotators, especially using "has data" condition, for other annotators it may show nothing for that particular variants, and they can be collapsed for convenience.
+The table contains columns and column sets with general information about the filtered variants, as well as connected to certain annotators. Some logically grouped column sets (by a particular annotator) can be extended or collapsed by clicking the **+/-** sign in the upper right corner of the column set (the topmost row). If you filtered by particular annotators, especially using "has data" condition, for other annotators it may show nothing for that particular variants, and they can be collapsed for convenience.
 
 Each row of the table represents a variant that you can research.
 
@@ -27,13 +27,13 @@ UID - the variant number in this (filtered) sequence
 
 Chrom - chromosome where the variant is located. Chromosome names are ‘chr1’ to ‘chr22’, ‘chrX’, ‘chrY’ and ‘chrM’.
 
-Position - Chromosomal position of the variant. THe first position in each chromosome is position 1.
+Position - chromosomal position of the variant. THe first position in each chromosome is position 1.
 
-Ref Base - Reference allele at this chromosomal position (one of A,C,G,T, and N).
+Ref Base - reference allele at this chromosomal position (one of A, C, G, T, and N).
 
-Alt Base - Alternative allele; called based on reads mapping to this chromosomal position.
+Alt Base - alternative allele; called based on reads mapping to this chromosomal position.
 
-Note - Note for the variant, if available.
+Note - note for the variant, if available.
 
 Coding - whether this gene variant is coding.
 
@@ -41,7 +41,7 @@ Gene - the gene this variant belongs to.
 
 Transcript - GENCODE transcript.
 
-RefSeq - reference sequence.
+RefSeq - the reference sequence.
 
 Sequence Ontology - could be: missense variant, start lost, stop gained, or stop lost. 
 
@@ -51,7 +51,7 @@ Protein Change - change of protein being synthesized.
 
 All Mappings - expression showing all the mappings.
 
-Sample Count - number of samples which contain the variant.
+Sample Count - the number of samples which contain the variant.
 
 Samples - samples which contain the variant.
 
@@ -77,7 +77,7 @@ Significance Detail - additional detail on clinical significance used when it is
 dbSNP
 -----
 
-rsID - Database identifier („rs“ number) of this variant in dbSNP.
+rsID - the database identifier ("rs" number) of this variant in dbSNP.
 
 This column is empty if the observed variant is not described in dbSNP. Such
 variants can be extremely rare variants or technical artifacts.
@@ -98,7 +98,7 @@ Associated Genes - genes associated with the variant.
 
 PubMed ID - ID of the variant in PubMed.
 
-Info - additional information
+Info - additional information.
 
 Description - detailed description of the research.
 
@@ -118,17 +118,16 @@ VCF Info
 
 Phred - Phred quality score.
 
-VCF Filter - if the VCF filter is passed (PASS)
+VCF Filter - if the VCF filter is passed (PASS).
 
-Zygosity - Most likely zygosity of the variant this chromosomal position, computed from the
-observed variant frequency (column 8) and can be “FP/HET” (<15%), “HET” (15-
-75%), “HET/HOM” (75-85%), or “HOM” (>85%).
+Zygosity - most likely zygosity of the variant in this chromosomal position, computed from the
+observed variant frequency (column 8). Can be “FP/HET” (<15%), “HET” (15-75%), “HET/HOM” (75-85%), or “HOM” (>85%).
 
-Alternate reads - Number of reads showing the alternative allele.
+Alternate reads - the number of reads showing the alternative allele.
 
-Total reads - Total number of reads.
+Total reads - the total number of reads.
 
-Variant AF - variant allele frequency.
+Variant AF - the variant allele frequency.
 
 Haplotype block ID - ID of the haplotype block.
 
