@@ -3,7 +3,7 @@ Filtering Variants
 
 Filters in OakVar allow to select those variants which are relevant. As the number of variants in a genome usually is very large, you need to filter them first. OakVar cannot load more than 100,000 variants at once.
 
-Filter tab
+The Filter page
 ----------
 
 Select the **Filter** page in the Result Viewer. There are sections where you can filter the variants:
