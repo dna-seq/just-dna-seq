@@ -8,7 +8,7 @@ By default a combined view is displayed, with both table and widgets:
 .. image:: variants-default.png
   :alt: Variants default view
   
-By clicking icons in the upper right corner, you can toggle on/off the table view (window-like icon) and the widgets view (piechart-like icon). For our purposes first of all we need the table view:
+By clicking the icons in the upper right corner, you can toggle on/off the table view (window-like icon) and the widgets view (piechart-like icon). For our purposes first of all we need the table view:
 
 .. image:: variants-table-view.png
   :alt: Variants table view
