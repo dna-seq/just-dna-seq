@@ -21,3 +21,4 @@ Contents
    filters
    working_with_info
    viewing-reports
+   for_developers
