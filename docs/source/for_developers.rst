@@ -37,7 +37,6 @@ For the Longevity module to work, you need to install the following annotators:
 
 6.	pubmed
 
-7.	longevitymap
 
 You can install them by using terminal or Oakvar GUI.
 
@@ -54,7 +53,7 @@ Use the following command:
 
 To activate Oakvar GUI, use the following command:
 
-``ov gui``
+``ov gui``  or `` ov gui --multiuser --debug `` to open GUI in multiuser debug version
 
 After the execution GUI will be opened in your browser.
 
@@ -69,6 +68,53 @@ Find annotators and install them:
   :alt: gui-installation annotators
 
 
+Installing Postaggregators
+----------------------
+
+For the Longevity module to work, you need to install the following postaggregators:
+
+1.	just_prs
+
+2.	just_longevitymap
+
+3.	just_drugs
+
+4.	just_cancer
+
+5.	just_coronary
+
+
+You can install them by using terminal or Oakvar GUI.
+
+
+**Installation using terminal:**
+
+Use the following command:
+
+``ov module install module_name``
+
+
+
+**Installation using GUI:**
+
+To activate Oakvar GUI, use the following command:
+
+``ov gui``  or `` ov gui --multiuser --debug `` to open GUI in multiuser debug version
+
+After the execution GUI will be opened in your browser.
+
+Go to “Store”:
+
+.. image:: gui-installation1.png
+  :alt: gui-installation store
+
+Find annotators and install them:
+
+.. image:: adding_modules.png
+  :alt: gui-installation postaggregators
+
+
+
 Installing the Reporter
 --------------------
 
@@ -76,23 +122,26 @@ Installing the Reporter
 
 Use the following command in terminal:
 
-``ov module install longevity-combinedreporter``
+``ov module install longevity2reporter``
 
 **Installation using GUI:**
 
 To activate Oakvar GUI, use the following command:
 
-``ov gui``
+``ov gui``  or `` ov gui --multiuser --debug `` to open GUI in multiuser debug version
+
+After the execution GUI will be opened in your browser.
 
 Go to “Store”:
 
 .. image:: gui-installation1.png
   :alt: gui-installation store
 
-Find the reporter called “longevity-combinedreporter” and install it:
+Find annotators and install them:
 
-.. image:: gui-installation3.png
+.. image:: adding_modules.png
   :alt: gui-installation reporter
+
 
 Loading Genome Files
 ---------------------
