@@ -8,10 +8,12 @@ You can learn how to get your longevity report and install Longevity Combined re
 Source code on GitHub (here you also can learn how to install it from GitHub): https://github.com/dna-seq/oakvar-longevity
 
 
-Part 1: Polygenic risk scores (PRSs) for gaining longevity
+Part 1: Polygenic risk scores (PRSs)
 ----------------------------------------
 
-PRS is represented as a percentile within a given population. For example, you have the 95th percentile, which means your genetic chances to gain extreme longevity is higher than 95 out of every 100 people in a chosen population.
+Longevity2 report contains Longevity PRS and Health Risk PRS.
+
+PRS is represented as a percentile within a given population. For example, if you have the 95th percentile in Longevity PRS, it means your genetic chances to gain extreme longevity is higher than 95 out of every 100 people in a chosen population. And if you have the 70th percentile in Heath Risk PRS, which means your personal genetic risk of the disease development is higher than 70 out of every 100 people in a chosen population.
 
 It does not take into account environmental factors and based on genetics only.
 
@@ -118,7 +120,7 @@ The report shows  variants with known coronary arthery disease risks and contain
 
 **Gene** - gene the variant belongs to, like in the previous report.
 
-**Risk Allele** - 
+**Risk Allele** - the allele that contains the risk trait
 
 **Genotype** - which variants your genome contains. Note that in case of homozygosity two letters should be the same, and for heterozygosity they differ.
 
@@ -126,7 +128,7 @@ The report shows  variants with known coronary arthery disease risks and contain
 
 **Population** - population(s) on which the research was conducted, e.g. Greek, Ashkenazi Jewish etc., or multiple (for more details, open **+**).
 
-**P-Value** - 
+**P-Value** -  is a number describing how likely it is that your data would have occurred under the null hypothesis.
 
 **Weight** - weight of this variant (the degree of significance).
 
