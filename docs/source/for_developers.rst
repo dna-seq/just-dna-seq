@@ -53,18 +53,16 @@ Use the following command:
 
 To activate Oakvar GUI, use the following command:
 
-``ov gui``  or `` ov gui --multiuser --debug `` to open GUI in multiuser debug version
+``ov gui``  
+or 
+`` ov gui --multiuser --debug `` 
+to open GUI in multiuser debug version
 
 After the execution GUI will be opened in your browser.
 
-Go to “Store”:
+Go to “Store” and find the annotators and install them:
 
-.. image:: gui-installation1.png
-  :alt: gui-installation store
-
-Find annotators and install them:
-
-.. image:: gui-installation2.png
+.. image:: installing.png
   :alt: gui-installation annotators
 
 
@@ -99,19 +97,17 @@ Use the following command:
 
 To activate Oakvar GUI, use the following command:
 
-``ov gui``  or `` ov gui --multiuser --debug `` to open GUI in multiuser debug version
+``ov gui``  
+or 
+`` ov gui --multiuser --debug `` 
+to open GUI in multiuser debug version
 
 After the execution GUI will be opened in your browser.
 
-Go to “Store”:
+Go to “Store” and find the annotators and install them:
 
-.. image:: gui-installation1.png
-  :alt: gui-installation store
-
-Find annotators and install them:
-
-.. image:: adding_modules.png
-  :alt: gui-installation postaggregators
+.. image:: installing.png
+  :alt: gui-installation annotators
 
 
 
@@ -128,49 +124,26 @@ Use the following command in terminal:
 
 To activate Oakvar GUI, use the following command:
 
-``ov gui``  or `` ov gui --multiuser --debug `` to open GUI in multiuser debug version
+``ov gui``  
+or 
+`` ov gui --multiuser --debug `` 
+to open GUI in multiuser debug version
 
 After the execution GUI will be opened in your browser.
 
-Go to “Store”:
+Go to “Store” and find the annotators and install them:
 
-.. image:: gui-installation1.png
-  :alt: gui-installation store
+.. image:: installing.png
+  :alt: gui-installation annotators
 
-Find annotators and install them:
+All further work also can be done by using command-line interface, for more information check OakVar documentation: https://rkimoakbioinformatics.github.io/oakvar/cli/
 
-.. image:: adding_modules.png
-  :alt: gui-installation reporter
+Or by using GUI: https://just-dna-seq.readthedocs.io/en/oakvar/getting_started.html
 
-
-Loading Genome Files
----------------------
-
-1. Open OakVar in your browser. You will see the index page:
-
-.. image:: index.png
-  :alt: Index page
-
-2. In the **Variants** section you should choose the right assembly version of the **Genome:** hg38/GRCh38, hg19/GRCh37, or hg18/GRCh36.
-
-For example we'll take a small VCF file of the hg19/GRCh37 version named example.vcf.
-
-3. Click **Add input files**. A file upload dialog will open, allowing to browse and select the vcf file (or multiple files at once).
-
-After loading, the file(s) will be shown next to the **Add input files** button along with another button **Clear file(s)** and a small **X** button next to each file name. If you click that **X**, the appropriate file will be deleted. If you click **Clear file(s)**, all the files you loaded will be deleted.
-
-.. image:: vcf-loaded.png
-  :alt: vcf files loaded
   
-Installing and Selecting Necessary Annotators
+The description of some modules
 ---------------------------------------------
   
-Scroll the left area down to the **Annotations** section.
-
-Here you can see the categories of annotators available for selection (above) and checkboxes for particular annotators.
-
-Annotators are software modules which can be developed, added and installed as needed. If any necessary annotator is not yet installed, you can install it on the **STORE** tab in the upper left corner.
-
 All annotators can be divided into 2 groups:
 
 1) Tools that predict pathogenicity (**bold**)
@@ -209,36 +182,3 @@ Here are their internal (coded) module names:
 • PharmGKB - an NIH-funded resource that provides information about how human genetic variation affects response to medications
 
 • dbSNP - the Single Nucleotide Polymorphism Database is a free public archive for genetic variation within and across different species developed and hosted by the National Center for Biotechnology Information (NCBI) in collaboration with the National Human Genome Research Institute (NHGRI)
-
-Once an annotator is installed, you can select in on the **JOBS** tab in the upper left corner.
-
-For example, let's select the **ClinVar** annotator from the **Clinical Relevance** category:
-
-.. image:: select-annotations.png
-  :alt: Selecting annotators
-  
-**Note:** An annotator may belong to multiple categories at once.
-
-The checkbox and **X** buttons between the categories and the annotators sections allow to select all of the displayed annotator chechboxes or to clear all of them.
-
-If you right-click any annotator, a pop-up window with its description will open in the right area:
-
-.. image:: annotation-description.png
-  :alt: Annotator description
-  
-For our purposes we will need the following annotators: **ClinVar** (clinvar), **dbSNP** (dbsnp), **gnomAD3** (gnomad), **LongevityMap** (longevitymap), **NCBI Gene** (ncbigene), **OMIM** (omim), and **PubMed** (pubmed). If any of them are missing, install them on the **STORE** tab, then go back to **JOBS**, in the **Annotations** section  select **All** categories, and then select each of the annotator checkboxes.  
-  
-Annotating Your Genome  
-----------------------
-  
-When you select all the annotators you need, click the large **ANNOTATE** button below in the left area.
-
-Annotating a large genome file may take some time. While loading, it will appear in the right area on the top of the list, displaying different stages of the processing in the **Status** column, and when finished, the **Open Results Viewer** button will appear in that column of the particular genome row:
-
-.. image:: genome-annotated.png
-  :alt: Genome annotated
-  
-Opening Your Annotated Genome
-----------------------------
-  
-Now click the **Open Results Viewer** button, and the annotated genome will open in a new browser tab/window.
