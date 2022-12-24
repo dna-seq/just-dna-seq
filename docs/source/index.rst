@@ -18,7 +18,7 @@ Contents
 .. toctree::
 
    getting_started
+   viewing-reports
    filters
    working_with_info
-   viewing-reports
    for_developers
