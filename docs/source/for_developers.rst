@@ -96,8 +96,6 @@ To activate Oakvar GUI, use the following command:
 
 ``ov gui``  or ``ov gui --multiuser --debug`` to open GUI in multiuser debug version.
 
-to open GUI in multiuser debug version
-
 After the execution GUI will be opened in your browser.
 
 Go to “Store” and find the annotators and install them:
@@ -121,8 +119,6 @@ Use the following command in terminal:
 To activate Oakvar GUI, use the following command:
 
 ``ov gui``  or ``ov gui --multiuser --debug`` to open GUI in multiuser debug version.
-
-to open GUI in multiuser debug version
 
 After the execution GUI will be opened in your browser.
 
