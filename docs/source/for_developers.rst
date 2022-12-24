@@ -57,7 +57,7 @@ To activate Oakvar GUI, use the following command:
 
 or 
 
-`` ov gui --multiuser --debug `` 
+``ov gui --multiuser --debug`` 
 
 to open GUI in multiuser debug version
 
@@ -104,7 +104,7 @@ To activate Oakvar GUI, use the following command:
 
 or 
 
-`` ov gui --multiuser --debug `` 
+``ov gui --multiuser --debug`` 
 
 to open GUI in multiuser debug version
 
@@ -134,7 +134,7 @@ To activate Oakvar GUI, use the following command:
 
 or 
 
-`` ov gui --multiuser --debug `` 
+``ov gui --multiuser --debug``  
 
 to open GUI in multiuser debug version
 
