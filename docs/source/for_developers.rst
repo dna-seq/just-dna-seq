@@ -129,7 +129,7 @@ Go to “Store” and find the annotators and install them:
 
 All further work also can be done by using command-line interface, for more information check OakVar documentation: https://rkimoakbioinformatics.github.io/oakvar/cli/
 
-Or by using GUI: https://just-dna-seq.readthedocs.io/en/oakvar/getting_started.html
+Or by using GUI :doc:`getting_started`
 
   
 The description of some modules
