@@ -14,6 +14,7 @@ Part 1: Polygenic risk scores (PRSs)
 Longevity2 report contains Longevity PRS and Health Risk PRS.
 
 PRS is represented as a percentile within a given population. For example, if you have the 95th percentile in Longevity PRS, it means your genetic chances to gain extreme longevity is higher than 95 out of every 100 people in a chosen population. 
+
 If you have the 70th percentile in Heath Risk PRS, which means your personal genetic risk of the disease development is higher than 70 out of every 100 people in a chosen population.
 
 It does not take into account environmental factors and based on genetics only.
