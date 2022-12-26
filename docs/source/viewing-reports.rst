@@ -1,7 +1,7 @@
 Viewing Reports
 ===============
 
-Just-DNA-Seq makes a set of reports on a genome which contain data about PRS, longevity-related gene variants, known cancer risks, coronary arthery disease risks and drug responses.
+Just-DNA-Seq makes a set of reports on a genome that contain data about PRS, longevity-related gene variants, known cancer risks, coronary artery disease risks, and drug responses.
 
 You can learn how to get your longevity report and install Longevity Combined reporter in :doc:`getting_started`.
 
@@ -17,7 +17,7 @@ PRS is represented as a percentile within a given population. For example, if yo
 
 If you have the 70th percentile in Heath Risk PRS, which means your personal genetic risk of the disease development is higher than 70 out of every 100 people in a chosen population.
 
-It does not take into account environmental factors and based on genetics only.
+It does not take into account environmental factors and is based on genetics only.
 
 .. image:: prs.png
   :alt: prs report
@@ -25,18 +25,18 @@ It does not take into account environmental factors and based on genetics only.
 Part 2: Longevity Significant Variations
 ----------------------------------------
 
-This report contains gene variants which have significant influence on longevity. It contains the following columns:
+This report contains gene variants that have a significant influence on longevity. It contains the following columns:
 
 **+** - clicking this green button opens detailed information on each entry (row), and the button becomes red with **-** sign. Clicking this **-** closed the details.
 Clicking **+** in the header opens the details for all rows and behaves in the same way (clicking **-** in the header closes all detail sections).
 
 **RSID** - reference sequence ID of the variant.
 
-**Population** - population(s) on which the research was conducted, e.g. Greek, Ashkenazi Jewish etc., or multiple (for more details, open **+**).
+**Population** - population(s) on which the research was conducted, e.g. Greek, Ashkenazi Jewish, etc., or multiple (for more details, open **+**).
 
 **Gene** - gene the variant belongs to.
 
-**Your Genotype** - which variants your genome contains. Note that in case of homozygosity two letters should be the same, and for heterozygosity they differ.
+**Your Genotype** - which variants your genome contains. Note that in the case of homozygosity two letters should be the same, and for heterozygosity, they differ.
 
 **Ref allele** - reference allele.
 
@@ -44,7 +44,7 @@ Clicking **+** in the header opens the details for all rows and behaves in the s
 
 **Zygosity** - hom (homozygosity) or het (heterozygosity).
 
-**Weight** - weight of this variant (the degree of significance).
+**Weight** - the weight of this variant (the degree of significance).
 
 .. image:: longevitymap.png
   :alt: longevitymap report
@@ -74,7 +74,7 @@ This report contains known issues of response to certain drugs associated with g
 
 **Effect**
 
-Note: In some browsers the last one or two columns may be found beyond the visible area at 100% zoom level; in such cases try zooming out to 90%, 80% and so on until everything is visible.
+Note: In some browsers, the last one or two columns may be found beyond the visible area at 100% zoom level; in such cases try zooming out to 90%, 80%, and so on until everything is visible.
 
 .. image:: drugs.png
   :alt: drugs report
@@ -104,12 +104,12 @@ This report shows variants with known cancer risks and contains the following co
 
 **Phenotype Name** - description of condition(s) associated with the variant.
 
-**Significance** - description of significance of this variant.
+**Significance** - description of the significance of this variant.
 
 .. image:: cancer.png
   :alt: cancer report
 
-Part 5: Coronary arthery disease Report
+Part 5: Coronary artery disease Report
 --------------------
 
 The report shows  variants with known coronary arthery disease risks and contains the following columns:
@@ -124,15 +124,15 @@ The report shows  variants with known coronary arthery disease risks and contain
 
 **Risk Allele** - the allele that contains the risk trait
 
-**Genotype** - which variants your genome contains. Note that in case of homozygosity two letters should be the same, and for heterozygosity they differ.
+**Genotype** - which variants your genome contains. Note that in the case of homozygosity two letters should be the same, and for heterozygosity, they differ.
 
 **Pubmed ID** - the ID number to access corresponding articles on PubMed
 
-**Population** - population(s) on which the research was conducted, e.g. Greek, Ashkenazi Jewish etc., or multiple (for more details, open **+**).
+**Population** - population(s) on which the research was conducted, e.g. Greek, Ashkenazi Jewish, etc., or multiple (for more details, open **+**).
 
 **P-Value** -  is a number describing how likely it is that your data would have occurred under the null hypothesis.
 
-**Weight** - weight of this variant (the degree of significance).
+**Weight** - the weight of this variant (the degree of significance).
 
 .. image:: coronary.png
-  :alt: Coronary arthery disease Report
+  :alt: Coronary artery Disease Report
